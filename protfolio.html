@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ranjan Kumar | Portfolio</title>
+  <style>
+    /* Reset and Base Styles */
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      line-height: 1.6;
+      color: #333333;
+      background: url("portfolio/background.jpg") no-repeat center center fixed;
+      background-size: cover;
+    }
+    a { text-decoration: none; color: inherit; }
+    main{
+      background-color: #00f2fe;
+    }
+    /* Header */
+    header { background: linear-gradient(135deg, #4facfe, #00f2fe); color: white; padding: 2rem; text-align: center; }
+    header h1 { font-size: 2.5rem; letter-spacing: 2px; }
+    header p { font-size: 1.2rem; margin-top: 0.5rem; }
+
+    /* Section Styling */
+    section { padding: 3rem 10%; }
+    h2 { font-size: 2rem; color: #4facfe; margin-bottom: 1rem; border-bottom: 2px solid #00f2fe; display: inline-block; }
+
+    /* About Section */
+    .about { display: flex; align-items: center; gap: 2rem; flex-wrap: wrap; background: rgba(255,255,255,0.9); padding: 2rem; border-radius: 15px; }
+    .about img { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 4px solid #00f2fe; }
+    .about p { max-width: 600px; }
+
+    /* Skills Section */
+    .skills { background: rgba(255,255,255,0.9); padding: 2rem; border-radius: 15px; }
+    .skills ul { display: flex; flex-wrap: wrap; gap: 1rem; list-style: none; }
+    .skills li { background: #4facfe; color: #fff; padding: 0.6rem 1.2rem; border-radius: 20px; }
+
+    /* Projects Section */
+    .projects { display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; }
+    .project { background: #fff; padding: 1rem; border-radius: 10px; box-shadow: 0 4px 6px rgba(0,0,0,0.1); }
+    .project img { width: 100%; border-radius: 10px; }
+    .project h3 { margin-top: 0.8rem; color: #333; }
+
+    /* Resume Button */
+    .resume { background: rgba(255,255,255,0.9); padding: 2rem; border-radius: 15px; }
+    .resume a { display: inline-block; background: #4facfe; color: #fff; padding: 0.8rem 1.5rem; border-radius: 25px; margin-top: 1rem; transition: 0.3s; }
+    .resume a:hover { background: #00c3ff; }
+
+    /* Contact Section */
+    .contact { background: rgba(255,255,255,0.9); padding: 2rem; border-radius: 15px; }
+    .contact p { margin: 0.5rem 0; }
+    .contact a { color: #4facfe; font-weight: bold; }
+
+    /* Footer */
+    footer { background: #333; color: white; text-align: center; padding: 1rem; margin-top: 2rem; }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Ranjan Kumar</h1>
+    <p>Web Developer | Creative Designer | Problem Solver | Data scientists</p>
+  </header>
+<main>
+  <!-- About Section -->
+  <section class="about">
+    <img src="Ranjan.jpg" alt="Ranjan Kumar" />
+    <div>
+      <h2>About Me</h2>
+      <p>Hello! I’m <b>Ranjan Kumar</b>, a web developer and Data scientists passionate about crafting responsive, user-friendly, and visually appealing websites. My focus is on turning ideas into meaningful digital solutions.</p>
+      <p> <b>I'm 3rd Year Student.</b></p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>JavaScript</li>
+      <li>Responsive Design</li>
+      <li>Python</li>
+      <li>Data Analytics</li>
+      <li>Problem Solving</li>
+      <li>Java</li>
+      <li>Data Science</li>
+      <li>c</li>
+      <li>c++</li>
+    </ul>
+  </section>
+
+  <!-- Projects Section -->
+  <section>
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project">
+        <img src="images (1).jpeg" alt="Project 1" />
+        <h3>Portfolio Website</h3>
+        <p>A personal portfolio website showcasing my skills, projects, and resume.</p>
+      </div>
+      <div class="project">
+        <img src="images.jpeg" alt="Project 2" />
+        <h3>Weather Dashboard</h3>
+        <p>A web app that fetches real-time weather data and displays interactive graphs.</p>
+      </div>
+      <div class="project">
+        <img src="download.jpeg" alt="Project 3" />
+        <h3>Data Visualizer</h3>
+        <p>A Python-based tool to analyze and visualize datasets using charts and graphs.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section class="resume">
+    <h2>Resume</h2>
+    <p>Download my resume below:</p>
+    <a href="resume.pdf" download>Download Resume (PDF)</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact</h2>
+    <p>Email: <a href="mailto:ranjankumark809246@gmail.com">ranjankumark809246@gmail.com</a></p>
+    <p>Phone: +91 8092467610</p>
+  </section>
+</main>
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Ranjan Kumar | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
